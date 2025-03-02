@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6BE68DB2D735D9B00588406 /* OllieMomentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE68DA2D735D9B00588406 /* OllieMomentApp.swift */; };
+		F6BE68DD2D735D9B00588406 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE68DC2D735D9B00588406 /* ContentView.swift */; };
+		F6BE68DF2D735D9E00588406 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6BE68DE2D735D9E00588406 /* Assets.xcassets */; };
+		F6BE68E22D735D9E00588406 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6BE68E12D735D9E00588406 /* Preview Assets.xcassets */; };
+		F6BE68EF2D735DCF00588406 /* OllieMomentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE68EE2D735DCF00588406 /* OllieMomentTests.swift */; };
+		F6BE68F62D73ED7200588406 /* ClipUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE68F52D73ED7200588406 /* ClipUIView.swift */; };
+		F6BE68F82D73ED8300588406 /* MeUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE68F72D73ED8300588406 /* MeUIView.swift */; };
+		F6BE68FA2D73EDCE00588406 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE68F92D73EDCE00588406 /* ModelManager.swift */; };
+		F6BE68FE2D73EFB100588406 /* VideoSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE68FD2D73EFB100588406 /* VideoSegment.swift */; };
+		F6BE69002D73F0EB00588406 /* VideoSegmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE68FF2D73F0EB00588406 /* VideoSegmentTests.swift */; };
+		F6BE69022D74001B00588406 /* iosModel in Resources */ = {isa = PBXBuildFile; fileRef = F6BE69012D74001B00588406 /* iosModel */; };
+		F6BE69062D74045C00588406 /* yolo11npose.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = F6BE69052D74045B00588406 /* yolo11npose.mlpackage */; };
+		F6BE69082D74046600588406 /* yolo11sseg.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = F6BE69072D74046600588406 /* yolo11sseg.mlpackage */; };
+		F6BE690A2D740B6000588406 /* ModelManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE69092D740B6000588406 /* ModelManagerTest.swift */; };
+		F6BE690C2D742E2200588406 /* AlbumManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE690B2D742E2200588406 /* AlbumManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6BE68F02D735DCF00588406 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6BE68CF2D735D9B00588406 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6BE68D62D735D9B00588406;
+			remoteInfo = OllieMoment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6BE68D72D735D9B00588406 /* OllieMoment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OllieMoment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6BE68DA2D735D9B00588406 /* OllieMomentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OllieMomentApp.swift; sourceTree = "<group>"; };
+		F6BE68DC2D735D9B00588406 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F6BE68DE2D735D9E00588406 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6BE68E12D735D9E00588406 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F6BE68EC2D735DCE00588406 /* OllieMomentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OllieMomentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6BE68EE2D735DCF00588406 /* OllieMomentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OllieMomentTests.swift; sourceTree = "<group>"; };
+		F6BE68F52D73ED7200588406 /* ClipUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipUIView.swift; sourceTree = "<group>"; };
+		F6BE68F72D73ED8300588406 /* MeUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeUIView.swift; sourceTree = "<group>"; };
+		F6BE68F92D73EDCE00588406 /* ModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		F6BE68FD2D73EFB100588406 /* VideoSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoSegment.swift; sourceTree = "<group>"; };
+		F6BE68FF2D73F0EB00588406 /* VideoSegmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoSegmentTests.swift; sourceTree = "<group>"; };
+		F6BE69012D74001B00588406 /* iosModel */ = {isa = PBXFileReference; lastKnownFileType = folder; path = iosModel; sourceTree = "<group>"; };
+		F6BE69052D74045B00588406 /* yolo11npose.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = yolo11npose.mlpackage; sourceTree = "<group>"; };
+		F6BE69072D74046600588406 /* yolo11sseg.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = yolo11sseg.mlpackage; sourceTree = "<group>"; };
+		F6BE69092D740B6000588406 /* ModelManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManagerTest.swift; sourceTree = "<group>"; };
+		F6BE690B2D742E2200588406 /* AlbumManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumManager.swift; sourceTree = "<group>"; };
+		F6BE690D2D742F2B00588406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6BE68D42D735D9B00588406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6BE68E92D735DCE00588406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6BE68CE2D735D9B00588406 = {
+			isa = PBXGroup;
+			children = (
+				F6BE69012D74001B00588406 /* iosModel */,
+				F6BE68D92D735D9B00588406 /* OllieMoment */,
+				F6BE68ED2D735DCE00588406 /* OllieMomentTests */,
+				F6BE68D82D735D9B00588406 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6BE68D82D735D9B00588406 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6BE68D72D735D9B00588406 /* OllieMoment.app */,
+				F6BE68EC2D735DCE00588406 /* OllieMomentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6BE68D92D735D9B00588406 /* OllieMoment */ = {
+			isa = PBXGroup;
+			children = (
+				F6BE690D2D742F2B00588406 /* Info.plist */,
+				F6BE690B2D742E2200588406 /* AlbumManager.swift */,
+				F6BE69072D74046600588406 /* yolo11sseg.mlpackage */,
+				F6BE69052D74045B00588406 /* yolo11npose.mlpackage */,
+				F6BE68DA2D735D9B00588406 /* OllieMomentApp.swift */,
+				F6BE68F92D73EDCE00588406 /* ModelManager.swift */,
+				F6BE68DC2D735D9B00588406 /* ContentView.swift */,
+				F6BE68DE2D735D9E00588406 /* Assets.xcassets */,
+				F6BE68E02D735D9E00588406 /* Preview Content */,
+				F6BE68F52D73ED7200588406 /* ClipUIView.swift */,
+				F6BE68F72D73ED8300588406 /* MeUIView.swift */,
+				F6BE68FD2D73EFB100588406 /* VideoSegment.swift */,
+			);
+			path = OllieMoment;
+			sourceTree = "<group>";
+		};
+		F6BE68E02D735D9E00588406 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F6BE68E12D735D9E00588406 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F6BE68ED2D735DCE00588406 /* OllieMomentTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6BE68EE2D735DCF00588406 /* OllieMomentTests.swift */,
+				F6BE68FF2D73F0EB00588406 /* VideoSegmentTests.swift */,
+				F6BE69092D740B6000588406 /* ModelManagerTest.swift */,
+			);
+			path = OllieMomentTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6BE68D62D735D9B00588406 /* OllieMoment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6BE68E52D735D9E00588406 /* Build configuration list for PBXNativeTarget "OllieMoment" */;
+			buildPhases = (
+				F6BE68D32D735D9B00588406 /* Sources */,
+				F6BE68D42D735D9B00588406 /* Frameworks */,
+				F6BE68D52D735D9B00588406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OllieMoment;
+			productName = OllieMoment;
+			productReference = F6BE68D72D735D9B00588406 /* OllieMoment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6BE68EB2D735DCE00588406 /* OllieMomentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6BE68F22D735DCF00588406 /* Build configuration list for PBXNativeTarget "OllieMomentTests" */;
+			buildPhases = (
+				F6BE68E82D735DCE00588406 /* Sources */,
+				F6BE68E92D735DCE00588406 /* Frameworks */,
+				F6BE68EA2D735DCE00588406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6BE68F12D735DCF00588406 /* PBXTargetDependency */,
+			);
+			name = OllieMomentTests;
+			productName = OllieMomentTests;
+			productReference = F6BE68EC2D735DCE00588406 /* OllieMomentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6BE68CF2D735D9B00588406 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F6BE68D62D735D9B00588406 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					F6BE68EB2D735DCE00588406 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = F6BE68D62D735D9B00588406;
+					};
+				};
+			};
+			buildConfigurationList = F6BE68D22D735D9B00588406 /* Build configuration list for PBXProject "OllieMoment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6BE68CE2D735D9B00588406;
+			productRefGroup = F6BE68D82D735D9B00588406 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6BE68D62D735D9B00588406 /* OllieMoment */,
+				F6BE68EB2D735DCE00588406 /* OllieMomentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6BE68D52D735D9B00588406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BE68E22D735D9E00588406 /* Preview Assets.xcassets in Resources */,
+				F6BE68DF2D735D9E00588406 /* Assets.xcassets in Resources */,
+				F6BE69022D74001B00588406 /* iosModel in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6BE68EA2D735DCE00588406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6BE68D32D735D9B00588406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BE68F82D73ED8300588406 /* MeUIView.swift in Sources */,
+				F6BE68F62D73ED7200588406 /* ClipUIView.swift in Sources */,
+				F6BE68FA2D73EDCE00588406 /* ModelManager.swift in Sources */,
+				F6BE68DD2D735D9B00588406 /* ContentView.swift in Sources */,
+				F6BE69062D74045C00588406 /* yolo11npose.mlpackage in Sources */,
+				F6BE68FE2D73EFB100588406 /* VideoSegment.swift in Sources */,
+				F6BE69082D74046600588406 /* yolo11sseg.mlpackage in Sources */,
+				F6BE68DB2D735D9B00588406 /* OllieMomentApp.swift in Sources */,
+				F6BE690C2D742E2200588406 /* AlbumManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6BE68E82D735DCE00588406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BE68EF2D735DCF00588406 /* OllieMomentTests.swift in Sources */,
+				F6BE690A2D740B6000588406 /* ModelManagerTest.swift in Sources */,
+				F6BE69002D73F0EB00588406 /* VideoSegmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6BE68F12D735DCF00588406 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6BE68D62D735D9B00588406 /* OllieMoment */;
+			targetProxy = F6BE68F02D735DCF00588406 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F6BE68E32D735D9E00588406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6BE68E42D735D9E00588406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6BE68E62D735D9E00588406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OllieMoment/Preview Content\"";
+				DEVELOPMENT_TEAM = CHCLVA9MNZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OllieMoment/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app requires access to your photo library to export videos";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SQ.OllieMoment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6BE68E72D735D9E00588406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OllieMoment/Preview Content\"";
+				DEVELOPMENT_TEAM = CHCLVA9MNZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OllieMoment/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app requires access to your photo library to export videos";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SQ.OllieMoment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F6BE68F32D735DCF00588406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CHCLVA9MNZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SQ.OllieMomentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OllieMoment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OllieMoment";
+			};
+			name = Debug;
+		};
+		F6BE68F42D735DCF00588406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CHCLVA9MNZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SQ.OllieMomentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OllieMoment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OllieMoment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6BE68D22D735D9B00588406 /* Build configuration list for PBXProject "OllieMoment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6BE68E32D735D9E00588406 /* Debug */,
+				F6BE68E42D735D9E00588406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6BE68E52D735D9E00588406 /* Build configuration list for PBXNativeTarget "OllieMoment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6BE68E62D735D9E00588406 /* Debug */,
+				F6BE68E72D735D9E00588406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6BE68F22D735DCF00588406 /* Build configuration list for PBXNativeTarget "OllieMomentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6BE68F32D735DCF00588406 /* Debug */,
+				F6BE68F42D735DCF00588406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6BE68CF2D735D9B00588406 /* Project object */;
+}
